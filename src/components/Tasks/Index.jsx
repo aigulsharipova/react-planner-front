@@ -90,7 +90,7 @@ export default () => {
                     <div className="section-tasks__row">
                         {
                             state_tasks.page_mode === 'show' && 
-                            <div onClick={createTask} className="text-center section-tasks__create btn btn-outline-light w-100">Create New Task +</div>
+                            <div onClick={createTask} className="text-center section-tasks__create btn btn-outline-light w-100">Add New Task +</div>
                         }
                         {
                             state_tasks.data && state_tasks.data.length > 0 && state_tasks.page_mode === 'show' &&
