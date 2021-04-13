@@ -86,7 +86,7 @@ export default () => {
             <Header></Header>
             <section className="section-tasks mt-5">
                 <div className="container">
-                    <h2 className="text-center">Project Planning</h2>
+                    <h2 className="text-center">My junior developer journey</h2>
                     <div className="section-tasks__row">
                         {
                             state_tasks.page_mode === 'show' && 
